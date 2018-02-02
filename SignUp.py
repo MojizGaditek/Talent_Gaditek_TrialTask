@@ -49,8 +49,9 @@ mydriver.find_element_by_id(elem['passwordTxtBox']).send_keys(password)
 # Write Confrim Password in Confirm password TextBox
 mydriver.find_element_by_id(elem['PasswordConfirmationTxtBox']).send_keys(Confirmpassword)
 
-#Click New Applicant button
+# Click New Applicant button
 mydriver.find_element_by_xpath(elem['SignupButton']).click()
+
 
 
 
